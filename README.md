@@ -50,3 +50,10 @@ $ git flow feature publish "nombre_del_feature"
 $ git flow feature finish "nombre_del_feature" --kepplocal --keepremote
 $ git push -u origin develop
 ```
+
+## Actualizar repositorio local
+Se utiliza para actualizar los cambios en la rama de desarrollo
+
+```git
+$ git pull origin develop
+```
