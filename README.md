@@ -7,7 +7,7 @@ Comando para instalar git flow en el reposito y tener acceso a todas la rams den
 $ git flow init
 ```
 
-## Visualcion de Ramas (branchs)
+## Visualizacion de Ramas (branchs)
 
 Comando para ver las ramificaciones y ver en la rama actual de trabajo.
 
@@ -47,7 +47,7 @@ Pasos para la finalizar un Feature y subir cambios a la ramificacion develop.
 $ git add . 
 $ git commit -m "descripcion"
 $ git flow feature publish "nombre_del_feature"
-$ git flow feature finish "nombre_del_feature" --kepplocal --keepremote
+$ git flow feature finish "nombre_del_feature" --keeplocal --keepremote
 $ git push -u origin develop
 ```
 
