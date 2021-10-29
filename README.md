@@ -61,4 +61,8 @@ $ git pull origin develop
 
 No quiero.
 Aca finaliza el readme.
+<<<<<<< HEAD
 Hello Word!!!
+=======
+rama edwin3
+>>>>>>> feature/edwin3
