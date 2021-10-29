@@ -36,6 +36,7 @@ $ git flow feature start "nombre"
 ## Finalizar un Feature
 
 Pasos para la finalizar un Feature y subir cambios a la ramificacion develop.
+Nota: antes de realizar el finish de una rama feature hay que actualizar la rama develop.
 
 * agregar cambios.
 * agregar descripcion.
