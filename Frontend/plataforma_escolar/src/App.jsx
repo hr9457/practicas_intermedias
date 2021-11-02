@@ -1,6 +1,7 @@
 import React from 'react'
 
 export function App() {
+    console.log(React.version);
     return (
         <div>
             

@@ -58,3 +58,12 @@ Se utiliza para actualizar los cambios en la rama de desarrollo
 ```git
 $ git pull origin develop
 ```
+
+## Herramientas Utilizadas frontend
+```git
+$ npm install @mui/material @emotion/react @emotion/styled
+
+npm install @mui/material @mui/styled-engine-sc styled-components
+
+npm install react-icons --save
+```
