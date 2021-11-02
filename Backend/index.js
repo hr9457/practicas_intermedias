@@ -1,6 +1,6 @@
 //express module
 const express = require('express');
-
+const conexionBD = require('./conectionbd')
 //server
 const app = express();
 //import json
@@ -8,6 +8,16 @@ app.use(express.json());
 
 //peticion inicio
 app.get('/',(req,res) =>{
+    const connection = conexionBD();
+    connection.connect(function(error){
+        if(error){
+            throw error;
+        }else{
+            console.log('Conexion correcta.');
+        }
+    })
+    connection.end();
+
     res.json({ answer : 'Hello World'
     });
 });
