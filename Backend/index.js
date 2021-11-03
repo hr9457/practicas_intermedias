@@ -33,3 +33,13 @@ app.post('/user',(req,res) =>{
 app.listen(3000,()=>{
     console.log('Server on port 3000');
 });
+
+/* EJEMPLO DE CONSULTA A BASE DE DATOS
+var query = connection.query('INSERT INTO personaje(nombre, apellido, biografia) VALUES(?, ?, ?)', ['Homero', 'Simpson', 'Esposo de Marge y padre de Bart, Lisa y Maggie.'], function(error, result){
+   if(error){
+      throw error;
+   }else{
+      console.log(result);
+   }
+}
+*/
