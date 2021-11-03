@@ -1,6 +1,6 @@
 //express module
 const express = require('express');
-const conexionBD = require('./conectionbd')
+const conexionBD = require('./conectionbd');
 //server
 const app = express();
 //import json
